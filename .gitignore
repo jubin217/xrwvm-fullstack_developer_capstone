@@ -127,3 +127,10 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Node modules
+node_modules/
+# Copied JSON cache files in database folder
+server/database/reviews.json
+server/database/dealerships.json
+server/database/car_records.json
