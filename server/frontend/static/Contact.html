@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact Us - Best Cars Dealership</title>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/style.css">
+  <link rel="stylesheet" href="/static/bootstrap.min.css">
+  <style>
+    body {
+      font-family: 'Outfit', sans-serif;
+      background: #f8f9fa;
+    }
+    .contact-card-container {
+      border: none !important;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+      border-radius: 16px;
+      background: white;
+      padding: 2rem;
+      margin-bottom: 3rem;
+      max-width: 900px;
+    }
+    .dealership-banner-img {
+      width: 100%;
+      height: 320px;
+      object-fit: cover;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    }
+    .contact-content {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+      margin-top: 2rem;
+      flex-wrap: wrap;
+    }
+    .contact-icon-col {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-width: 250px;
+      padding: 1rem;
+    }
+    .contact-icon-img {
+      width: 150px;
+      height: 150px;
+      object-fit: contain;
+    }
+    .divider {
+      width: 2px;
+      background-color: #dee2e6;
+      align-self: stretch;
+      margin: 0 2rem;
+    }
+    @media (max-width: 768px) {
+      .divider {
+        display: none;
+      }
+      .contact-content {
+        flex-direction: column;
+      }
+    }
+    .contact-info-col {
+      flex: 1.2;
+      min-width: 280px;
+      padding: 1rem;
+    }
+    .info-group {
+      margin-bottom: 1.5rem;
+      text-align: left;
+    }
+    .info-group h5 {
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: #614080;
+      margin-bottom: 0.2rem;
+    }
+    .info-group p {
+      font-size: 0.95rem;
+      color: #495057;
+      margin: 0;
+    }
+    .info-group a {
+      color: #614080;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .info-group a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+<div>
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color:darkturquoise; height: 1in;">
+    <div class="container-fluid">
+      <h2 style="padding-right: 5%; margin: 0;">Dealerships</h2>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" style="font-size: larger;" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="font-size: larger;" href="/about">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" style="font-size: larger;" href="/contact">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <div class="card contact-card-container" style="margin: auto; margin-top: 5%;">
+    <img src="/static/car_dealership.jpg" class="dealership-banner-img" alt="Best Cars Dealership Warehouse">
+    
+    <div class="contact-content">
+      <div class="contact-icon-col">
+        <img src="/static/contactus.png" class="contact-icon-img" alt="Contact Us">
+      </div>
+      
+      <div class="divider"></div>
+      
+      <div class="contact-info-col">
+        <div class="info-group">
+          <h5>Contact Customer Service</h5>
+          <p><a href="mailto:support@bestcars.com">support@bestcars.com</a></p>
+        </div>
+        
+        <div class="info-group">
+          <h5>Contact our National Advertising team</h5>
+          <p><a href="mailto:NationalSales@bestcars.com">NationalSales@bestcars.com</a></p>
+        </div>
+        
+        <div class="info-group">
+          <h5>Contact our Public Relations team</h5>
+          <p><a href="mailto:PR@bestcars.com">PR@bestcars.com</a></p>
+        </div>
+        
+        <div class="info-group">
+          <h5>Contact the bestcars.com offices</h5>
+          <p><a href="tel:312-611-1111">312-611-1111</a></p>
+        </div>
+        
+        <div class="info-group">
+          <h5>Become a bestcars.com car dealer</h5>
+          <p>Visit <a href="http://growwithbestcars.com" target="_blank" rel="noopener noreferrer">growwithbestcars.com</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
